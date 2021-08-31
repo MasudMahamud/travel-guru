@@ -1,0 +1,9 @@
+input#standard-disabled {
+    color: #000000;
+    font-size: x-large;
+    font-family: fantasy;
+}
+.start-book-btn{
+    margin: 11px !important;
+    
+}

@@ -1,0 +1,23 @@
+.slick-slider.slick-initialized {
+ 
+    color: #fff !important;
+}
+.slider-text{
+    margin-top: 20px !important;
+}
+
+.slider-area{
+    margin-top: 120px !important;
+    margin-bottom: 120px !important;
+    
+}
+.slick-slider.slick-initialized button.slick-arrow.slick-prev{
+    display: none !important;
+}
+.slick-slider.slick-initialized button.slick-arrow.slick-next{
+    display: none !important;
+}
+.slider-image img{
+    width: 70% !important;
+    margin:auto !important
+}
