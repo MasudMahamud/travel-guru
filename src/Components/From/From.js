@@ -11,6 +11,10 @@ import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import { useState } from "react";
 
+const shoot = () => {
+  alert("Thanks for booking!");
+};
+
 export default function From(props) {
   const { title } = props.props.item;
   //console.log(title)
@@ -82,9 +86,13 @@ export default function From(props) {
           }}
         />
       </Grid>
-      <Button className="start-book-btn" variant="contained" color="primary">
-        {" "}
-        Start Booking{" "}
+      <Button
+        onClick={shoot}
+        className="start-book-btn"
+        variant="contained"
+        color="primary"
+      >
+        Start Booking
       </Button>
     </MuiPickersUtilsProvider>
   );
